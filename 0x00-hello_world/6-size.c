@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - print a string using printf
  *
@@ -7,13 +8,9 @@
 int main(void)
 {
 	char c;
-
 	int i;
-
 	long l;
-
 	long long ll;
-
 	float f;
 
 	printf("Size of a char : % lu byte(s)\n", sizeof(c));
